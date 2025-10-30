@@ -25,25 +25,28 @@ body {
     padding: 50px;
     font-family: var(--fontBody);
     font-weight: 400;
+    color: var(--color4);
     text-align: justify;
 }
 
 main {
     background-color: var(--color1);
-    width: 50vw;
+    width: 40vw;
     margin: auto;
     padding: 25px;
     border-radius: 15px;
 }
 
 img {
-    width: 50vw;
+    width: 40vw;
     border-radius: 10px;
 }
 
 h1 {
     font-family: var(--fontTitle);
+    font-size-adjust: inherit;
     font-weight: 500;
+    color: #000000;
     padding: 20px 0px 10px 0px;
 }
 
@@ -53,9 +56,12 @@ p {
 
 aside {
     background-color: var(--color8);
-    width: 50vw;
-    padding: 0px 0px 20px 0px;
+    width: 40vw;
     border-radius: 10px;
+}
+
+.strong {
+    color: var(--color5);
 }
 
 h2.prep {
@@ -111,4 +117,22 @@ ol li::marker {
     font-weight: 700;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
+th, td {
+    color: var(--color4);
+    padding: 5px 0px 5px 20px;
+    border-bottom: 1.8px solid var(--color3);
+}
+
+td.nutri-facts {
+    color: var(--color6);
+    font-weight: 600;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
