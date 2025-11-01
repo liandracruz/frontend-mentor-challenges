@@ -22,7 +22,7 @@
 
 body {
     background-color: var(--color2);
-    padding: 50px;
+    padding: 50px 50px 20px 50px;
     font-family: var(--fontBody);
     font-weight: 400;
     color: var(--color4);
@@ -44,7 +44,7 @@ img {
 
 h1 {
     font-family: var(--fontTitle);
-    font-size-adjust: inherit;
+    /* font-size-adjust: inherit; */
     font-weight: 500;
     color: #000000;
     padding: 20px 0px 10px 0px;
@@ -135,4 +135,19 @@ td.nutri-facts {
 
 tr:last-child td {
     border-bottom: none;
+}
+
+div.attribution {
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+    color: var(--color7);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color4);
+}
+
+a:hover {
+    color: var(--color7);
 }
