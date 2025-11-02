@@ -14,7 +14,7 @@
     --fontBody: 'Outfit', sans-serif;
 }
 
-* {
+/* * {
     margin: 0px;
     padding: 0px;
     box-shadow: none;
@@ -37,7 +37,9 @@ main {
 }
 
 img {
-    width: 40vw;
+    max-width: 100%;
+    height: auto;
+    display: block;
     border-radius: 10px;
 }
 
@@ -56,7 +58,9 @@ p {
 
 aside {
     background-color: var(--color8);
-    width: 40vw;
+    border-radius: 10px;
+    height: auto;
+    display: block;
     border-radius: 10px;
 }
 
@@ -152,6 +156,19 @@ a:hover {
     color: var(--color7);
 }
 
-@media(max-width: 768px) {
-    
-}
+/* @media(max-width: 768px) {
+    main {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+
+    img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+} */
