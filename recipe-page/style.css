@@ -14,6 +14,139 @@
     --fontBody: 'Outfit', sans-serif;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fontBody);
+    font-weight: 400;
+    color: var(--color4);
+}
+
+main {
+    width: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    color: #000000;
+    font-family: var(--fontTitle);
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+aside {
+    background-color: var(--color8);
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.strong {
+    color: var(--color5);
+    font-weight: 600;
+}
+
+h2.prep {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color7);
+    padding: 5px 0px 10px 20px;
+}
+
+ul.prep {
+    margin-left: 6%;
+}
+
+ul.prep li {
+    line-height: 1.8em;
+    padding-left: 14px;
+}
+
+ul.prep li::marker {
+    color: var(--color7);
+    font-size: 0.8em;
+}
+
+h2 {
+    color: var(--color6);
+    font-family: var(--fontTitle);
+    font-weight: 500;
+    padding: 20px 0px 10px 0px;
+}
+
+ul {
+    line-height: 1.8;
+    padding: 0px 0px 20px 20px;
+}
+
+ul li {
+    padding-left: 2%;
+}
+
+ul li::marker {
+    color: var(--color6);
+    font-size: 0.8em;
+}
+
+ol {
+    padding: 0px 0px 20px 20px;
+}
+
+ol li {
+    padding-left: 2%;
+    margin: 2%;
+}
+
+ol li::marker {
+    color: var(--color6);
+    font-weight: 700;
+    line-height: 1.5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    color: var(--color4);
+    padding: 5px 0px 5px 20px;
+    border-bottom: 1.8px solid var(--color3);
+}
+
+td.nutri-facts {
+    color: var(--color6);
+    font-weight: 600;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+div.attribution {
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+    color: var(--color4);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color7);
+    padding-bottom: 15px;
+}
+
+
 /* * {
     margin: 0px;
     padding: 0px;
