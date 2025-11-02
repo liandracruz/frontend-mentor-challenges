@@ -26,7 +26,6 @@ body {
     font-family: var(--fontBody);
     font-weight: 400;
     color: var(--color4);
-    text-align: justify;
 }
 
 main {
@@ -44,7 +43,7 @@ img {
 
 h1 {
     font-family: var(--fontTitle);
-    /* font-size-adjust: inherit; */
+    font-size-adjust: inherit;
     font-weight: 500;
     color: #000000;
     padding: 20px 0px 10px 0px;
@@ -52,6 +51,7 @@ h1 {
 
 p {
     margin-bottom: 25px;
+    text-align: justify;
 }
 
 aside {
@@ -150,4 +150,8 @@ a {
 
 a:hover {
     color: var(--color7);
+}
+
+@media(max-width: 768px) {
+    
 }
