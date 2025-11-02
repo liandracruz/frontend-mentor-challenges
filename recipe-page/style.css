@@ -146,162 +146,144 @@ a {
     padding-bottom: 15px;
 }
 
-
-/* * {
-    margin: 0px;
-    padding: 0px;
-    box-shadow: none;
-}
-
-body {
-    background-color: var(--color2);
-    padding: 50px 50px 20px 50px;
-    font-family: var(--fontBody);
-    font-weight: 400;
-    color: var(--color4);
-}
-
-main {
-    background-color: var(--color1);
-    width: 40vw;
-    margin: auto;
-    padding: 25px;
-    border-radius: 15px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-}
-
-h1 {
-    font-family: var(--fontTitle);
-    font-size-adjust: inherit;
-    font-weight: 500;
-    color: #000000;
-    padding: 20px 0px 10px 0px;
-}
-
-p {
-    margin-bottom: 25px;
-    text-align: justify;
-}
-
-aside {
-    background-color: var(--color8);
-    border-radius: 10px;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-}
-
-.strong {
-    color: var(--color5);
-}
-
-h2.prep {
-    font-family: var(--fontBody);
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--color7);
-    margin-left: 20px;
-    padding-bottom: 10px;
-}
-
-ul.prep {
-    margin-left: 40px;
-}
-
-ul.prep li {
-    line-height: 1.8em;
-    padding-left: 14px;
-}
-
-ul.prep li::marker {
-    color: var(--color7);
-    font-size: 0.8em;
-}
-
-h2 {
-    font-family: var(--fontTitle);
-    font-weight: 500;
-    color: var(--color6);
-    padding: 20px 0px 15px 0px;
-}
-
-ul, ol {
-    margin-left: 25px;
-    padding-bottom: 20px;
-}
-
-ul li {
-    line-height: 1.8em;
-}
-
-ul li::marker {
-    color: var(--color6);
-    font-size: 0.8em;
-}
-
-ol li {
-    padding-bottom: 10px;
-}
-
-ol li::marker {
-    color: var(--color6);
-    font-weight: 700;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    color: var(--color4);
-    padding: 5px 0px 5px 20px;
-    border-bottom: 1.8px solid var(--color3);
-}
-
-td.nutri-facts {
-    color: var(--color6);
-    font-weight: 600;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-div.attribution {
-    text-align: center;
-    margin: 15px 0px 0px 0px;
-    color: var(--color7);
-}
-
-a {
-    text-decoration: none;
-    color: var(--color4);
-}
-
-a:hover {
-    color: var(--color7);
-}
-
-/* @media(max-width: 768px) {
-    main {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0px 20px;
-        box-sizing: border-box;
+@media(min-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-shadow: none;
     }
-
+    
+    body {
+        background-color: var(--color2);
+        padding: 50px 50px 20px 50px;
+    }
+    
+    main {
+        background-color: var(--color1);
+        width: 40vw;
+        margin: auto;
+        padding: 25px;
+        border-radius: 15px;
+    }
+    
     img {
-        width: 100%;
         max-width: 100%;
         height: auto;
-        border-radius: 0;
+        display: block;
+        border-radius: 10px;
     }
-} */
+    
+    h1 {
+        font-family: var(--fontTitle);
+        font-size-adjust: inherit;
+        font-weight: 500;
+        color: #000000;
+        padding: 20px 0px 10px 0px;
+    }
+    
+    p {
+        margin-bottom: 25px;
+        text-align: justify;
+    }
+    
+    aside {
+        background-color: var(--color8);
+        border-radius: 10px;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+    }
+    
+    .strong {
+        color: var(--color5);
+    }
+    
+    h2.prep {
+        font-family: var(--fontBody);
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--color7);
+        margin-left: 20px;
+        padding-bottom: 10px;
+    }
+    
+    ul.prep {
+        margin-left: 40px;
+    }
+    
+    ul.prep li {
+        line-height: 1.8em;
+        padding-left: 14px;
+    }
+    
+    ul.prep li::marker {
+        color: var(--color7);
+        font-size: 0.8em;
+    }
+    
+    h2 {
+        font-family: var(--fontTitle);
+        font-weight: 500;
+        color: var(--color6);
+        padding: 20px 0px 15px 0px;
+    }
+    
+    ul, ol {
+        margin-left: 25px;
+        padding-bottom: 20px;
+    }
+    
+    ul li {
+        line-height: 1.8em;
+    }
+    
+    ul li::marker {
+        color: var(--color6);
+        font-size: 0.8em;
+    }
+    
+    ol li {
+        padding-bottom: 10px;
+    }
+    
+    ol li::marker {
+        color: var(--color6);
+        font-weight: 700;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    th, td {
+        color: var(--color4);
+        padding: 5px 0px 5px 20px;
+        border-bottom: 1.8px solid var(--color3);
+    }
+    
+    td.nutri-facts {
+        color: var(--color6);
+        font-weight: 600;
+    }
+    
+    tr:last-child td {
+        border-bottom: none;
+    }
+    
+    div.attribution {
+        text-align: center;
+        margin: 15px 0px 0px 0px;
+        color: var(--color7);
+    }
+    
+    a {
+        text-decoration: none;
+        color: var(--color4);
+    }
+    
+    a:hover {
+        color: var(--color7);
+    }
+
+}
