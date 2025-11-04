@@ -1,11 +1,10 @@
 # Frontend Mentor - Recipe page solution
 
-This is my solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
+This is my solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). This project consists in a simple layout built with HTML and CSS and which the main goal is to make this page responsive for diferent screens.
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -14,8 +13,6 @@ This is my solution to the [Recipe page challenge on Frontend Mentor](https://ww
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -42,36 +39,11 @@ I also followed the mobile first approach for better responsiveness and later ad
 
 ### What I learned
 
-Through this challenge I believe my main lesson occurred while working on CSS. I started defining the properties 
-
-
-
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Through this challenge my biggest lesson came while working on CSS. I started styling the layout based on the desktop design, which made it difficult to adjust the project responsiveness for smaller screens. But after switching to a mobile-first approach the process became smoother and more efficient.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Moving forward, I plan to keep improving my project structures, especially in CSS. I also want to start incorporating JavaScript to make my projects more interactive and give a better experience for the users.
 
 ### Useful resources
 
