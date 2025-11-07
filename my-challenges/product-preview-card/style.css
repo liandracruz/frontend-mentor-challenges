@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --color1: #3c8067;
     --color2: #1b4133;
@@ -5,4 +7,66 @@
     --color4: #6c7289;
     --color5: #f2ebe3;
     --color6: #ffffff;
+
+    --fontTitle: "Fraunces", serif;
+    --fontBody: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+}
+
+body {
+    background-color: var(--color5);
+    padding: 50px 8px 0px 8px;
+    font-family: var(--fontBody);
+    color: var(--color4);
+}
+
+main {
+    background-color: var(--color6);
+    padding: 20px;
+}
+
+.top {
+    text-transform: uppercase;
+    font-size: x-small;
+    letter-spacing: 3px;
+    padding-bottom: 0px;
+}
+
+h1 {
+    font-family: var(--fontTitle);
+    color: var(--color2);
+    line-height: 30px;
+    padding: 20px 0px;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+.current-price {
+    font-family: var(--fontTitle);
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--color1);
+    padding-right: 10px;
+}
+
+.real-price {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--color1);
+    color: var(--color6);
+    border-radius: 5px;
 }
